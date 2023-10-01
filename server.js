@@ -10,5 +10,5 @@ app.get("/product", (req, res) =>
     var p ={ "Title" : "Backpack", "Color" : "Blue", "Price": 800, "Company": "Safari"}
     res.send(p);
 });
-app.listen(7000);
-console.log("Listening on port 7000");
+app.listen(9000);
+console.log("Listening on port 9000");
